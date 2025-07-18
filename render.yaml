@@ -51,8 +51,7 @@ services:
         fromDatabase:
           name: n8n-db
           property: user
-environment:
-            - N8N_PROTOCOL=https
+      - N8N_PROTOCOL: https
 databases:
   - name: n8n-db
     plan: free
