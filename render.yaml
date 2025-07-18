@@ -52,6 +52,7 @@ services:
           name: n8n-db
           property: user
       - N8N_PROTOCOL: https
+      - WEBHOOK_URL: https://localhost:5678/webhook/5d63cae6-5c4f-4ea3-a34f-7d0afa724994/webhook
 databases:
   - name: n8n-db
     plan: free
